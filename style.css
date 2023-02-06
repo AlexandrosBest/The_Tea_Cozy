@@ -1,0 +1,121 @@
+body {
+    font-family: Helvetica;
+    text-align: center;
+    color: white;
+    background-color: black;
+    opacity: 0.9;
+    margin: 0;
+    padding: 0;
+    
+
+}
+
+header {
+    background-color: black;
+    display: flex; 
+    position: fixed; 
+    width: 100%;
+    /* for up-down alignment */
+    align-items: center;
+    /* for let-right alignment */
+    justify-content: space-between;
+    border-bottom: 1px solid seashell;
+}
+
+#logo_image {
+    height: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+#nav_bar li {
+    list-style: none;
+    margin-right: 10px;
+    padding: 0px 15px;
+    display: inline-block;
+}
+
+#nav_bar li a {
+    text-decoration: underline;
+    color: seashell;
+}
+
+#mission_statement {
+    margin: 0 auto;
+    display: flex;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+    width: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+    justify-content: center;
+}
+
+.text_over {
+    margin: auto;
+    background-color: black;
+    width: 100%;
+    padding: 0px 20px;
+}
+
+#tea_of_the_month {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 0 auto;
+    width: 80%;
+}    
+
+.tea_images {
+    display: inline-block;
+    margin: 0 5px;
+}
+.tea_images img {
+    width: 300px;
+    height: 200px;
+}
+
+.tea_text {
+    margin-top: 10px;
+}
+
+
+
+
+#locations {
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*1w1qdid*_ga*MTczODg0MTQxLjE2MzQ3ODE5MDU.*_ga_3LRZM6TM9L*MTY3NTE0MTU3MS41LjEuMTY3NTE0MzQ2NS41NS4wLjA.");
+    margin: 0 auto;
+    width: 80%;
+    height: 500px;
+    padding: 0 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#locations h2 {
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+
+#location_container {
+    width: 100%;
+    display: flex;
+}
+.location_text {
+    justify-content: space-between;
+    margin-left: 3px;
+    margin-right: 3px;
+    padding: 50px 20px;
+    background-color: black;
+    opacity: 0.7;
+}
+
+
+.text_aligned_left {
+    text-align: left;
+    padding-left: 20px;
+}
+
+.container_end {
+    height: 200px;
+}
